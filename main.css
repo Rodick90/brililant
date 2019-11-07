@@ -1,0 +1,21 @@
+@media screen and (max-width :800px) {
+  img{
+    width: 100%;
+    height:auto;
+  }
+  body{
+    margin: 0px 0px;
+
+  }
+  html{
+    background-color: #8E897E;
+
+
+
+
+ }
+
+
+
+
+}
