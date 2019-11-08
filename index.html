@@ -3,24 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>WICIU</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <header>
 
-    <div class="topnav">
-    <a href="#home" class="active">WICIU</a>
+
+
+
     <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-      <a href="index.html">Home</a>
-      <a href="#contact">Contact</a>
-      <a class="lastchild" href="#about">About</a>
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+    <div class="topnav">
+  <a href="index.html" class="active">WICIU</a>
+  <div id="myLinks">
+    <a href="#news">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
   </div>
-  </header>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 
   </nav>
   <body>
@@ -32,13 +35,14 @@
 
   <script type="text/javascript">
   function myFunction() {
-var x = document.getElementById("myLinks");
-if (x.style.display === "block") {
-  x.style.display = "none";
-} else {
-  x.style.display = "block";
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
-}
+
 </script>
 
 </html>
