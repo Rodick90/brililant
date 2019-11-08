@@ -4,12 +4,41 @@
     <meta charset="utf-8">
     <title>WICIU</title>
     <link rel="stylesheet" href="main.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <header>
-    <img src="cover2.jpg" alt="WICIU">
+
+    <div class="topnav">
+    <a href="#home" class="active">WICIU</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="#contact">Contact</a>
+      <a class="lastchild" href="#about">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   </header>
+
+  </nav>
   <body>
+    <img src="cover.jpg" alt="WICIU">
 
   </body>
+
+
+
+  <script type="text/javascript">
+  function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+  x.style.display = "none";
+} else {
+  x.style.display = "block";
+}
+}
+</script>
+
 </html>
