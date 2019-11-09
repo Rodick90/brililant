@@ -7,6 +7,7 @@
   img{
     width: 100%;
     height:auto;
+    margin-bottom: 100px;
   }
   /*navigacija*/
   /* Style the navigation menu */
@@ -40,5 +41,14 @@
   .active {
     background-color: black;
     color: grey;
+  }
+  .overview , .mission{
+    font-family: serif;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  .paragraph_one, .paragraph_two{
+    margin: 20px 20px;
+    font-size: 18px;
   }
 }
