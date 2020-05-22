@@ -1,7 +1,7 @@
 @media screen and (max-width :800px) {
   body{
     margin:0px 0px;
-    background-color: #c2fef4;
+    background-color: #F5FEFD;
   }
 /*cover image*/
   img{
@@ -13,7 +13,7 @@
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
-    background-color: #a4e2d5;
+    background-color: #F5FEFD;
     position: relative;
   }
 
@@ -23,7 +23,7 @@
 
   .topnav a {
     float: left;
-    color: white;
+    color: #c8509f;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -31,16 +31,17 @@
 
   .topnav a.icon {
     float: right;
+    color: #c8509f;
   }
 
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #f0db21;
+    color: #c8509f;
   }
 
   .active {
-    background-color: black;
-    color: grey;
+    background-color: #f0db21;
+    color: #c8509f;
   }
   .overview , .mission{
     font-family: serif;
