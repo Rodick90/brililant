@@ -1,7 +1,7 @@
 @media screen and (max-width :800px) {
   body{
     margin:0px 0px;
-    background-color: white;
+    background-color: #c2fef4;
   }
 /*cover image*/
   img{
@@ -13,7 +13,7 @@
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #a4e2d5;
     position: relative;
   }
 
