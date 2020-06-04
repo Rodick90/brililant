@@ -1,7 +1,11 @@
 @media screen and (max-width :800px) {
   body{
     margin:0px 0px;
+<<<<<<< HEAD
     background-color: #4584c9;
+=======
+    background-color: #F5FEFD;
+>>>>>>> 2b3b62fa101d19cd00e72a633391a59650e14034
   }
 /*cover image*/
   img{
@@ -13,7 +17,11 @@
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
+<<<<<<< HEAD
     background-color: #4584c9;
+=======
+    background-color: #F5FEFD;
+>>>>>>> 2b3b62fa101d19cd00e72a633391a59650e14034
     position: relative;
   }
 
@@ -23,7 +31,7 @@
 
   .topnav a {
     float: left;
-    color: white;
+    color: #c8509f;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -31,9 +39,11 @@
 
   .topnav a.icon {
     float: right;
+    color: #c8509f;
   }
 
   .topnav a:hover {
+<<<<<<< HEAD
     background-color: #ddd;
     color: #4584c9;
   }
@@ -41,6 +51,15 @@
   .active {
     background-color: #4584c9;
     color: grey;
+=======
+    background-color: #f0db21;
+    color: #c8509f;
+  }
+
+  .active {
+    background-color: #f0db21;
+    color: #c8509f;
+>>>>>>> 2b3b62fa101d19cd00e72a633391a59650e14034
   }
   .overview , .mission{
     font-family: serif;
