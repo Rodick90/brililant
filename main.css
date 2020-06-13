@@ -1,8 +1,9 @@
 @media screen and (max-width :800px) {
   body{
     margin:0px 0px;
-    background-color: white;
-  }
+<<<<<<< HEAD
+    background-color: #4584c9;
+
 /*cover image*/
   img{
     width: 100%;
@@ -13,7 +14,11 @@
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+<<<<<<< HEAD
+    background-color: #4584c9;
+=======
+    background-color: #F5FEFD;
+>>>>>>> 2b3b62fa101d19cd00e72a633391a59650e14034
     position: relative;
   }
 
@@ -23,7 +28,7 @@
 
   .topnav a {
     float: left;
-    color: white;
+    color: #c8509f;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -31,21 +36,24 @@
 
   .topnav a.icon {
     float: right;
+    color: #c8509f;
   }
 
   .topnav a:hover {
+<<<<<<< HEAD
     background-color: #ddd;
-    color: black;
+    color: #4584c9;
   }
 
   .active {
-    background-color: black;
+    background-color: #4584c9;
     color: grey;
-  }
+
   .overview , .mission{
     font-family: serif;
     font-size: 30px;
     margin-left: 50px;
+
   }
   .paragraph_one, .paragraph_two{
     margin: 20px 20px;
