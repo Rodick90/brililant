@@ -1,9 +1,11 @@
 @media screen and (max-width :800px) {
   body{
     margin:0px 0px;
-<<<<<<< HEAD
     background-color: #4584c9;
+<<<<<<< HEAD
 
+  }
+>>>>>>> ac11f77f0f1d1610d805cfd7139087d3a285b239
 /*cover image*/
   img{
     width: 100%;
@@ -14,11 +16,7 @@
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
-<<<<<<< HEAD
     background-color: #4584c9;
-=======
-    background-color: #F5FEFD;
->>>>>>> 2b3b62fa101d19cd00e72a633391a59650e14034
     position: relative;
   }
 
@@ -40,7 +38,6 @@
   }
 
   .topnav a:hover {
-<<<<<<< HEAD
     background-color: #ddd;
     color: #4584c9;
   }
@@ -48,7 +45,10 @@
   .active {
     background-color: #4584c9;
     color: grey;
+<<<<<<< HEAD
 
+  }
+>>>>>>> ac11f77f0f1d1610d805cfd7139087d3a285b239
   .overview , .mission{
     font-family: serif;
     font-size: 30px;
